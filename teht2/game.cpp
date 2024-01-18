@@ -15,15 +15,15 @@ void Game::play(){
     randomNumber = rand() % maxNumber+1;
     do
     {
-        cout<<"Give you guess between 1-"<<maxNumber<<":"<<endl;
+        cout<<"Give your guess between 1-"<<maxNumber<<":"<<endl;
         cin>>playerGuess;
         numOfGuesses++;
 
         if(randomNumber==playerGuess){
             cout<<"Your guess is right = "<<randomNumber<<endl;
-        } else if(randomNumber<=playerGuess){
+        } else if(randomNumber<playerGuess){
             cout<<"Your guess is too big"<<endl;
-        } else if(randomNumber>=playerGuess){
+        } else if(randomNumber>playerGuess){
             cout<<"Your guss is too small"<<endl;
         }
     } while(randomNumber != playerGuess);
