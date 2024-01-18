@@ -24,7 +24,7 @@ void Game::play(){
         } else if(randomNumber<playerGuess){
             cout<<"Your guess is too big"<<endl;
         } else if(randomNumber>playerGuess){
-            cout<<"Your guss is too small"<<endl;
+            cout<<"Your guess is too small"<<endl;
         }
     } while(randomNumber != playerGuess);
 
