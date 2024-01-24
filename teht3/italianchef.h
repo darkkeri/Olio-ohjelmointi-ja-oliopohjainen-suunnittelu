@@ -9,10 +9,13 @@ using namespace std;
 class ItalianChef : public Chef
 {
 public:
-    ItalianChef();
+    ItalianChef(string, int, int);
     ~ItalianChef();
     string getName();
     void makePasta();
+private:
+    int vesi;
+    int jauhot;
 };
 
 #endif // ITALIANCHEF_H

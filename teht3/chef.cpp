@@ -6,7 +6,7 @@ Chef::Chef(string newname)
     cout<<"Chef "<<name<<" konstruktori"<<endl;
 }
 
-~Chef()
+Chef::~Chef()
 {
     cout<<"Chef "<<name<<" destruktori"<<endl;
 }
