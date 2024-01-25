@@ -9,8 +9,10 @@ ItalianChef::ItalianChef(string newname, int newvesi, int newjauhot) : Chef(newn
 
 }
 
-void ItalianChef::makePasta()
+void ItalianChef::makePasta(int newvesi, int newjauhot)
 {
+    vesi = newvesi;
+    jauhot= newjauhot;
     cout<<"Chef "<<name<<" makes pasta with special recipe"<<endl;
     cout<<"Chef "<<name<<" users jauhot = "<<jauhot<<endl;
     cout<<"Chef "<<name<<" users vesi = "<<vesi<<endl;

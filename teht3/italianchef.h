@@ -12,7 +12,7 @@ public:
     ItalianChef(string, int, int);
     ~ItalianChef();
     string getName();
-    void makePasta();
+    void makePasta(int, int);
 private:
     int vesi;
     int jauhot;

@@ -18,7 +18,7 @@ int main()
     Chef Jyrki("Jyrki");
     ItalianChef Mario("Mario", 250, 100);
     Jyrki.makeSalad();
-    Mario.makePasta();
+    Mario.makePasta(250, 100);
     Jyrki.makeSoup();
 
     return 0;
