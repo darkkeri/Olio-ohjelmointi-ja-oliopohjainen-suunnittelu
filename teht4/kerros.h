@@ -1,14 +1,20 @@
+#include <iostream>
+#include "asunto.h"
+using namespace std;
+
 #ifndef KERROS_H
 #define KERROS_H
-#include <iostream>
 
-using namespace std;
+
+
 
 class Kerros
 {
 public:
     Kerros();
     virtual void maaritaAsunnot();
+    double laskeKulutus(double);
+
 private:
     Asunto as1;
     Asunto as2;

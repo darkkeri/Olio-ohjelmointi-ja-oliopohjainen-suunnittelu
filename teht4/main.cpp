@@ -1,18 +1,12 @@
 #include <iostream>
-#include "asunto.h"
+#include "kerrostalo.h"
 
 using namespace std;
 
 
 int main(){
-    Katutaso katutaso;
-    Kerros kerros;
-    katutaso.maaritaAsunnot();
-    kerros.maaritaAsunnot();
-
-
-
-
+    Kerrostalo doomed;
+    cout<<"Kerrostalon kulutus = "<<doomed.laskeKulutus(1)<<endl;
     return 0;
 }
 
