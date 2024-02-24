@@ -13,8 +13,12 @@ teht4/*.user
 teht5/build/
 teht5/*.user
 
-teht6/build/
-teht6/*.user
+teht6/teht6part1/build/
+teht6/teht6part1/*.user
+
+teht6/teht6part2/build/
+teht6/teht6part2/*.user
+
 
 
 
